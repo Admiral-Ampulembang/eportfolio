@@ -4,7 +4,7 @@ import colors from "@/styles/colors";
 export default function Footer() {
     return (
         <footer
-            className="relative w-full h-[250px] flex flex-col justify-center items-center text-center"
+            className="relative w-full h-[250px] flex flex-col justify-center items-center text-center px-8"
             style={{
                 backgroundColor: colors.whiteSmoke,
                 backgroundImage: "url('/batik_bg.svg')",
@@ -32,10 +32,10 @@ export default function Footer() {
                 />
             </div>
 
-            <div className="relative z-10 flex flex-col items-center">  
+            <div className="relative z-10 flex flex-col items-center text-center px-[260px] md:px-[260px] sm:px-6">  
                 {/* name */}
                 <p
-                    className="font-bold text-lg"
+                    className="font-bold text-sm sm:text-base md:text-lg leading-tight break-words"
                     style={{ fontFamily: "Montserrat", color: colors.darkgray }}
                 >
                     ADMIRAL DENALDY AMPULEMBANG
@@ -46,7 +46,7 @@ export default function Footer() {
                     className="text-sm"
                     style={{ fontFamily: "Montserrat", color: colors.darkgray }}
                 >
-                    @2026
+                    &copy; 2026
                 </p>
 
                 {/* line divider */}
@@ -54,7 +54,7 @@ export default function Footer() {
 
                 {/* Bottom line */}
                 <p
-                    className="text-sm"
+                    className="text-[10px] sm:text-xs md:text-sm leading-relaxed break-words"
                     style={{ fontFamily: "Montserrat", color: colors.darkgray }}
                 >
                     Built with <span style={{ color: colors.coral }}>Canva</span> · <span style={{ color: colors.coral }}>Next.js</span> · <span style={{ color: colors.coral }}>Tailwind CSS</span> · <span style={{ color: colors.coral }}>Email JS</span> · <span style={{ color: colors.coral }}>Vercel</span>
