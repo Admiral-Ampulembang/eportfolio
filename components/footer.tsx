@@ -32,7 +32,7 @@ export default function Footer() {
                 />
             </div>
 
-            <div className="relative z-10 flex flex-col items-center text-center px-[260px] md:px-[260px] sm:px-6">  
+            <div className="relative z-10 flex flex-col items-center text-center px-[100px] md:px-[100px] sm:px-6">  
                 {/* name */}
                 <p
                     className="font-bold text-sm sm:text-base md:text-lg leading-tight break-words"
